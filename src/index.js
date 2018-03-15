@@ -1,7 +1,7 @@
-import * as SectionStandard from './sections/Standard'
-import * as SectionFullWidth from './sections/FullWdith'
+import SectionStandard from './sections/Standard'
+import SectionFullWidth from './sections/FullWdith'
 
-module.exports = {
+export default {
   SectionStandard,
   SectionFullWidth,
 };
