@@ -25,7 +25,13 @@ The system uses a mobile first grid system based on 5 breakpoints
  - HD (12)
  - UHD (16)
  
- All rows have default behavours defined through the breakpoints collapsing down to a single column on mobile. 
+## Design considerations
+All rows have default behavours defined through the breakpoints collapsing down to a single column on mobile. 
+
+### Sections 
+ - FullWidth sections assume you are using the 16 grid
+ - All sections provide sensible padding on row areas
+ - Standard section should be used with a maximum of 12 columns as it has a max width of 1600px (or equivelent)
 
 ## Todo: Add Components
  - [ ] FullWidth Section
