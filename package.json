@@ -1,7 +1,7 @@
 {
   "name": "layout",
-  "version": "1.0.0",
-  "description": "layout React component",
+  "version": "0.0.1",
+  "description": "layout components are used to quickly scaffold pages in cms style manner",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -32,10 +32,16 @@
     "@storybook/addon-actions": "^3.3.15",
     "@storybook/addon-links": "^3.3.15"
   },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": "",
+  "author": "agentlewis",
+  "homepage": "https://github.com/root-systems/layout#readme",
+  "bugs": {
+    "url": "https://github.com/root-systems/layout/issues"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/root-systems/layout.git"
+  },
   "keywords": [
     "react-component"
   ]
