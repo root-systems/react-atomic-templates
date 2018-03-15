@@ -18,10 +18,26 @@ At the moment we are using nwb for packaging:
 npm run build
 ```
 
+The system uses a mobile first grid system based on 5 breakpoints
+ - mobile (2)
+ - tablet portrait (4)
+ - tablet landscape (8)
+ - HD (12)
+ - UHD (16)
+ 
+ All rows have default behavours defined through the breakpoints collapsing down to a single column on mobile. 
+
 ## Todo: Add Components
  - [ ] FullWidth Section
  - [ ] Standard Section
  - [ ] Page
+ - [ ] Row 16
+ - [ ] Row 12,4
+ - [ ] Row 4,12
+ - [ ] Row 8,8
+ - [ ] Row 4,4,8
+ - [ ] Row 4,8,4
+ - [ ] Row 8,4,4
  - [ ] Row 12
  - [ ] Row 6,6
  - [ ] Row 4,4,4
@@ -33,7 +49,12 @@ npm run build
  - [ ] Row 4,8
  - [ ] Row 3,9
  - [ ] Row 9,3
-
+ - [ ] Row 2,2 (tablet-p)
+ - [ ] Row 4,4 (tablet-l)
+ - [ ] Row 1,1 (mobule)
+ - [ ] Set content components order for mobile
+ - [ ] Any row can have breakpoint column numbers specified - overiding defaults
+ 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/root-systems/layout.svg?branch=master
 
