@@ -20,17 +20,19 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
-    "nwb": "0.21.x",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "@storybook/react": "^3.3.15",
     "@storybook/addon-actions": "^3.3.15",
-    "@storybook/addon-links": "^3.3.15"
+    "@storybook/addon-links": "^3.3.15",
+    "@storybook/react": "^3.3.15",
+    "create-nwb-webpack-config": "^1.0.0",
+    "nwb": "0.21.x"
   },
   "author": "agentlewis",
   "homepage": "https://github.com/root-systems/layout#readme",
