@@ -20,7 +20,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "dependencies": {},
+  "dependencies": {
+    "styled-components": "^3.2.3"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
