@@ -3,8 +3,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
-import SectionStandard from '../src/sections/Standard'
-import SectionFullWidth from '../src/sections/FullWdith'
+import { SectionFullWidth, SectionStandard } from '../src/sections'
 
 storiesOf('Sections', module)
   .add('Fullwidth', () => 

@@ -1,7 +1,5 @@
-import SectionStandard from './sections/Standard'
-import SectionFullWidth from './sections/FullWdith'
+import Sections from './sections'
 
 export default {
-  SectionStandard,
-  SectionFullWidth,
-};
+  Sections,
+}
