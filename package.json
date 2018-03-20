@@ -21,6 +21,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "styled-components": "^3.2.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
