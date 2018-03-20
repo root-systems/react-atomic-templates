@@ -28,6 +28,25 @@ The system uses a mobile first grid system based on 5 breakpoints
 ## Design considerations
 All rows have default behavours defined through the breakpoints collapsing down to a single column on mobile. 
 
+### EM Media Queries
+[As per this article](https://stackoverflow.com/a/22262489)
+
+```
+// Phones (portrait phones, up to 34em)
+
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em) { ... }
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) { ... }
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) { ... }
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) { ... }
+```
+
 ### Sections 
  - FullWidth sections assume you are using the 16 grid
  - All sections provide sensible padding on row areas
