@@ -1,14 +1,25 @@
-import React from 'react';
+import React from 'react'
+import styled from 'styled-components'
 
-import styled from 'styled-components';
+const Section = styled.section`
+  position: relative;
+  border-top-width: 1px;
+  border-top-style: dotted;
+  border-top-color: #ef7743;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+`
 
-// Create a <FullWidth> react component that renders a <section> with
-// some padding and a papayawhip background
-const FullWidth = styled.section`
-  padding: 4em;
-  background: papayawhip;
-`;
-
-FullWidth.displayName = 'Fullwidth Section';
+class FullWidth extends React.Component {
+  render() {
+    return (
+      <Section>
+        {this.props.children}
+      </Section>
+    )
+  }
+}
 
 export default FullWidth
