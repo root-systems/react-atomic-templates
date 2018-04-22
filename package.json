@@ -21,6 +21,8 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "fela": "^6.1.5",
+    "kilvin": "^1.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
